@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website With Dark Mode</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Dark Mode Switch -->
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-group">
+            <h1>Aashir Ahmed</h1>
+            <h2>Welcome to My Website!</h2>
+            <div class="image-container" id="image-container">
+                <img src="img/mine.jpeg" alt="loading">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h1>About Me</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Analytical Thinker</h2>
+                <img src="img/undraw_proud_coder_light.svg" alt="Proud Coder" id="image1">
+            </div>
+            <div class="image-container">
+                <h2>Goal Oriented</h2>
+                <img src="img/undraw_feeling_proud_light.svg" alt="Feeling Proud" id="image2">
+            </div>
+            <div class="image-container">
+                <h2>Innovator</h2>
+                <img src="img/undraw_conceptual_idea_light.svg" alt="Conceptual Idea" id="image3">
+            </div>
+        </div>
+        <div class="intro-box" id="intro-box">
+            <p>A computer science graduate from Forman Christian College University. I’m a highly motivated person who is eager to learn and has a passion for learning new technologies. 
+                During my bachelors I worked on numerous projects and had a keen interest in web development, Data Science , Mob app development and Software Quality Assurance. Besides that in order to keep my skills polished, I have done several online courses as well. </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h1>Projects</h1>
+        <!-- <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled> Disabled</button>
+        </div> -->
+
+        <div class="text-box" id="text-box">
+            <ol id="#ol">
+                <li>Email App</li>
+                <li>Full Stack Pharmacy Management System</li>
+                <li>Restaurant Website</li>
+                <li>Human disease detection system using Machine Learning (AI)</li>
+                <li>Cinema Management system</li>
+                <li>Skin Lesion Segmentation using ensemble of different image processing
+                    methods</li>
+                <li>Infinity Scroll App Using Splash API</li>
+                <li>Quote Generator using API'S</li>
+                <li>Joke Teller Using API's</li>      
+            </ol>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Contact Me!</h1>
+        <div class="social-icons">
+            <a href=" https://github.com/aashir1998" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/aashir-ahmed98/" target="_blank""><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/aashir_ahmed98/" target="_blank""><i class="fab fa-instagram"></i></a>
+           
+        </div>
+    </section>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
